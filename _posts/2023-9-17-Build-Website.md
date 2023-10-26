@@ -56,5 +56,5 @@ Jekyll Now 的目标是简化 Jekyll 的配置和设置过程，使用户可以�
 print("Hello, world.\n")
 ```
 
-![cat](/images/cat.jpeg)
+![cat](/assets/images/cat.jpeg)
 

@@ -1,17 +1,20 @@
 ---
 title: 打造一款iOS小游戏，Emoji Card Game---CS50 Final Project(swift, ios)
 date: 2023-10-19 19:17:03 +0800
-categories: [自学CS, CS50]
+categories: [CS自学, CS50]
 tags: [CS50]     # TAG names should always be lowercase
 ---
 这是我的第一款iOS应用，可以先看看效果图
 首先可以看一下[我的final project视频介绍](https://www.youtube.com/watch?v=tZj4Tcr7Qyc)，非常朴素的一个小游戏。
 下面是效果图
 
-![emoji_card_game_0](/images/cs50/cs50_final_project_emoji_card_game_0.png)
+![emoji_card_game_0](/assets/images/cs50/cs50_final_project_emoji_card_game_0.png){: .w-25}
 
 
-首先可以看一下[我的final project视频介绍](https://www.youtube.com/watch?v=tZj4Tcr7Qyc)，非常朴素的一个小游戏，
+首先可以看一下[我的final project视频介绍]，非常朴素的一个小游戏，
+## Video
+
+{% include embed/youtube.html id='tZj4Tcr7Qyc' %}
 
 cs50的final project是自由的，因此我们挑选一些我们喜欢的主题来进行制作，老师给了我们推荐一些可以自由发挥的选题，让我们来看看老师给我们推荐的一些选题。
 - a web-based application using JavaScript, Python, and SQL
@@ -42,6 +45,6 @@ cs50的final project是自由的，因此我们挑选一些我们喜欢的主题
 看了这么多的推荐，我感觉我好像一直很想做一款iOS的应用，在mac上使用xcode对编写基于swfif的ios也是非常方便的一件事情。于是我最终下定决心，定下来的就是打造一个iOS应用作为我的Final Project!😃
 
 **初期的准备工作**
-0. 为了打造一款iOS的app，我们肯定需要一些较为简单的教程，但是CS50并没有涉及到如何打造一款iOS的app，因此，我们需要一些在网上找一些教程。我在google搜索"how to build an ios app"![emoji_card_game_0](/images/cs50/cs50_final_project_emoji_card_game_1.png)我
+0. 为了打造一款iOS的app，我们肯定需要一些较为简单的教程，但是CS50并没有涉及到如何打造一款iOS的app，因此，我们需要一些在网上找一些教程。我在google搜索"how to build an ios app"![emoji_card_game_0](/assets/images/cs50/cs50_final_project_emoji_card_game_1.png)我
 我选择了选择了iOS Academy制作的[非常简单的教程iOS](https://www.youtube.com/watch?v=nqTcAzPS3oc)，大概只需要二十分钟
 1. 这个视频会教你如何制作一个非常简单的app，就是先通过swfit的selector来选择一些表情，当用户点击之后就可以
