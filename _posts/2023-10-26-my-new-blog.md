@@ -1,6 +1,6 @@
 ---
 title: 我的新博客
-date: 2023-10-26 15:23:30 +/-0000
+date: 2023-10-26 15:23:30 +0800
 categories: [Blogging, Idea]
 tags: [博客搬家]     # TAG names should always be lowercase
 ---
