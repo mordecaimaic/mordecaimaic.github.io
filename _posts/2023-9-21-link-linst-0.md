@@ -1,6 +1,8 @@
 ---
-layout: post
 title: 数据结构-单链表分拆(更新中)
+date: 2023-09-21 10:15:00 +0800
+categories: [博客, 数据结构与算法]
+tags: [link-list]     # TAG names should always be lowercase
 ---
 
 如何把一个单链表拆成两个单链表

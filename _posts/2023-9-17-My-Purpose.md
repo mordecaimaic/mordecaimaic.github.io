@@ -1,6 +1,8 @@
 ---
-layout: post
 title: 建立网站的初衷
+date: 2023-09-16 15:30:00 +0800
+categories: [博客, 感想]
+tags: [idea]     # TAG names should always be lowercase
 ---
 
 1. 记录自己学习cs和英语，作为我的个人网站，感觉学习的进度提高了，就会有很多东西需要巩固。

@@ -1,6 +1,8 @@
 ---
-layout: post
 title: 小白如何快速搭建属于自己的个人网站
+date: 2023-09-17 12:35:00 +0800
+categories: [博客, 如何搭建博客]
+tags: [创建博客]     # TAG names should always be lowercase
 ---
 作为记录，写下我自己是如何搭建自己的个人网站，以及使用到的教程。
 
