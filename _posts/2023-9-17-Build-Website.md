@@ -49,7 +49,7 @@ Jekyll Now 的目标是简化 Jekyll 的配置和设置过程，使用户可以�
 
 **[Markdown语法的进一步说明](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)**
 
-**[作者本人使用Markdown写的网页](http://www.jekyllnow.com/)**
+**[作者本人使用Markdown写的网页](https://www.jekyllnow.com/)**
 
  
 ```c
