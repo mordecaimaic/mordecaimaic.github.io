@@ -1,5 +1,6 @@
 ---
 title: 建立网站的初衷
+author: mordecaimaic
 date: 2023-09-16 15:30:00 +0800
 categories: [IDEA, 感想]
 tags: [idea]     # TAG names should always be lowercase

@@ -1,5 +1,6 @@
 ---
 title: 打造一款iOS小游戏，Emoji Card Game---CS50 Final Project(swift, ios)
+author: mordecaimaic
 date: 2023-10-19 19:17:03 +0800
 categories: [CS自学, CS50]
 tags: [CS50]     # TAG names should always be lowercase

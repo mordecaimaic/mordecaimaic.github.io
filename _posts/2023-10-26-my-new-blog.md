@@ -1,5 +1,6 @@
 ---
 title: 我的新博客（更新中）
+author: mordecaimaic
 date: 2023-10-26 15:23:30 +0800
 categories: [博客, 如何搭建博客]
 tags: [博客搬新家]     # TAG names should always be lowercase

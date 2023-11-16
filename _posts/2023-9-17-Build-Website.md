@@ -1,5 +1,6 @@
 ---
 title: 小白如何快速搭建属于自己的个人网站
+author: mordecaimaic
 date: 2023-09-17 12:35:00 +0800
 categories: [博客, 如何搭建博客]
 tags: [创建博客]     # TAG names should always be lowercase
