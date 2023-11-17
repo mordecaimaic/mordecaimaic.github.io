@@ -89,10 +89,10 @@ comments:
     issue_term: # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo: "mordecaimaic/mordecaimaic.github.io"
-    repo_id: "R_kgDOKlTfsw"
-    category: "Comments"
-    category_id: "DIC_kwDOKlTfs84CbBVY"
+    repo: mordecaimaic/mordecaimaic.github.io
+    repo_id: R_kgDOKlTfsw
+    category: Comments
+    category_id: DIC_kwDOKlTfs84CbBVY
     mapping: # optional, default to 'pathname'
     input_position: # optional, default to 'bottom'
     lang: # optional, default to the value of `site.lang`
