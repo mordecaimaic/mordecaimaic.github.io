@@ -16,7 +16,7 @@ timezone:
 
 title: 朴素的博客 # the main title
 
-tagline: Welcome To MY Blog # it will display as the sub-title
+tagline: Welcome To My Blog # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.

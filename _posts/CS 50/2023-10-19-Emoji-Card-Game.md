@@ -5,6 +5,7 @@ date: 2023-10-19 19:17:03 +0800
 categories: [CS自学, CS50]
 tags: [cs50]     # TAG names should always be lowercase
 ---
+# CS50 Final Project
 这是我的第一款iOS应用，可以先看看效果图
 首先可以看一下[我的final project视频介绍](https://www.youtube.com/watch?v=tZj4Tcr7Qyc)，非常朴素的一个小游戏。
 下面是效果图
@@ -45,7 +46,15 @@ cs50的final project是自由的，因此我们挑选一些我们喜欢的主题
 
 看了这么多的推荐，我感觉我好像一直很想做一款iOS的应用，在mac上使用xcode对编写基于swfif的ios也是非常方便的一件事情。于是我最终下定决心，定下来的就是打造一个iOS应用作为我的Final Project!😃
 
-**初期的准备工作**
-0. 为了打造一款iOS的app，我们肯定需要一些较为简单的教程，但是CS50并没有涉及到如何打造一款iOS的app，因此，我们需要一些在网上找一些教程。我在google搜索"how to build an ios app"![emoji_card_game_0](/assets/images/cs50/cs50_final_project_emoji_card_game_1.png)我
+## 初期的准备工作
+0. 为了打造一款iOS的app，我们肯定需要一些较为简单的教程，但是CS50并没有涉及到如何打造一款iOS的app，因此，我们需要一些在网上找一些教程。我在google搜索"how to build an ios app"![emoji_card_game_0](/assets/images/cs50/cs50_final_project_emoji_card_game_1.png)
 我选择了选择了iOS Academy制作的[非常简单的教程iOS](https://www.youtube.com/watch?v=nqTcAzPS3oc)，大概只需要二十分钟
-1. 这个视频会教你如何制作一个非常简单的app，就是先通过swfit的selector来选择一些表情，当用户点击之后就可以
+1. 这个视频会教你如何制作一个非常简单的app，就是先通过swfit的selector来选择一些表情，当用户点击了下面的小表情之后之后就可以看到一个大号版的表情在上面。
+2. 接着我在借助gpt以及网上关于swifit的教程，开始对这个原始版本的软件进行修改
+
+## Improvement
+* 为了更好的改进，我想到每次内部都会进行一个随机的答案。
+* 每个表情就是一个随机的选项，就像做选择题一样ABCD随机选择，只有一个表情是正确的。并且会统计用户每次做题的记录
+* 点击check是提交答案
+* 点击refresh是复原，并且重新随机生一个新的答案
+
