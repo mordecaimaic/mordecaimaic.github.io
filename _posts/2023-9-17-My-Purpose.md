@@ -21,4 +21,4 @@ tags: [idea]     # TAG names should always be lowercase
 
 *理由一：简单，非常方便，Jekllynow是一款完全开源的项目，并且部署过程非常简单，不需要安装任何额外的东西
 
-*理由二：这是我在谷歌搜索到的"how to build a personal website on github"的教程，算是练习一下如何部署静态网站，虽然页面很简朴，但是做我认为，作为一个博客，最核心的东西是——文字，也是最有感染力的东西
+*理由二：这是我在谷歌搜索到的"how to build a personal website on github"的教程，算是练习一下如何部署静态网站，虽然页面很简朴，但是做我认为，作为一个博客，最核心的东西是——文字，也是最有感染力的东西，因此我认为，这样的网站就足够了。

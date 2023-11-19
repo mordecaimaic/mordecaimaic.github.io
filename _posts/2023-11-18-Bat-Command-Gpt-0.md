@@ -1,7 +1,7 @@
 ---
 title: 使用GPT和New Bing制作简单的提高效率的BAT脚本命令
 author: mordecaimaic
-date: 2023-11-18 13:15:00 +0800
+date: 2023-11-18 15:30:00 +0800
 categories: [Chatgpt使用]
 tags: [chatgpt, bat]     # TAG names should always be lowercase
 image:
