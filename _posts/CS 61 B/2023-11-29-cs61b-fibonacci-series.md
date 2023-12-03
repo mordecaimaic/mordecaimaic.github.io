@@ -8,8 +8,6 @@ image:
   path: /assets/images/cs61a/Verifying Recursive Functions 2-31 screenshot.png
   alt: CS61A Recursive Functions
 ---
-# 哲学问题：CS 61B Fibonacci 数列
-
 ## 重复性过高
 我们之前实现的 Fibonacci 数列的代码如下：
 下面是java的实现代码
