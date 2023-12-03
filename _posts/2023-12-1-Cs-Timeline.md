@@ -3,8 +3,7 @@ title: Time Line
 author: mordecaimaic
 date: 2023-12-1 13:50:00 +0800
 categories: [Timeline]
-tags: [cs timeline]     # TAG names should always be 
-lowercase
+tags: [cs timeline]     # TAG names should always be lowercase
 pin: true
 ---
 # cs61a完成进度
