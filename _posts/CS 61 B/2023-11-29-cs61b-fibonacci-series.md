@@ -4,6 +4,9 @@ author: mordecaimaic
 date: 2023-11-29 11:50:00 +0800
 categories: [CS自学, CS 61B]
 tags: [cs61]     # TAG names should always be lowercase
+image:
+  path: /assets/images/cs61a/Verifying Recursive Functions 2-31 screenshot.png
+  alt: CS61A Recursive Functions
 ---
 # 哲学问题：CS 61B Fibonacci 数列
 
@@ -43,7 +46,7 @@ int fibOld(int num){
 
 但是实际上我们已经计算过一次f(3)，我们又重复地计算了一遍f(3)。
 
-!["fibonacci"](/assets/images/cs61b/Tree_Recursion_2-57_screenshot.png "fibonacci")
+!["fibonacci"](/assets/images/cs61a/Tree_Recursion_2-57_screenshot.png "fibonacci")
 
 具体为什么会重复的完整版介绍，可以看cs61a John的介绍
 {% include embed/youtube.html id='ls0GsJyLVLw' %}
