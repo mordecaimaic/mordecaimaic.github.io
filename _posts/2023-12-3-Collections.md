@@ -28,7 +28,8 @@ tags: [收藏夹]     # TAG names should always be lowercase
 [https://www.zhihu.com/question/39238915/answer/984802663](https://www.zhihu.com/question/39238915/answer/984802663)
 - > 进击的steve的回答 - 知乎 
   [https://www.zhihu.com/question/39238915/answer/2766507146](https://www.zhihu.com/question/39238915/answer/2766507146)
-- > 
+- > 北美CS求职四十一条建议 (NG/Intern)[https://zhuanlan.zhihu.com/p/475840413](https://zhuanlan.zhihu.com/p/475840413)
+
 
 ### cs61b 帖子
 - CS 61b - 开始小结cs61B自学学习课程

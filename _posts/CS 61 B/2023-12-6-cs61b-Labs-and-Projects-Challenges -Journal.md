@@ -1,5 +1,5 @@
 ---
-title: [Spoili] CS 61B Labs and Projects Challenges Journal
+title: [Spoil攻略] CS 61B Labs and Projects Challenges Journal
 author: mordecaimaic
 date: 2023-12-06 18:05:00 +0800
 categories: [CS自学, CS 61B]
@@ -39,9 +39,11 @@ tags: [cs61]     # TAG names should always be lowercase
 ### Lab3: Randomizing Testing and Timing
 * 用随机测试来找到错误，非常巧妙
 
-## discussion
-* ⚠️这周的discussion和老师的课对不上，要上完week 4的课才能看懂！！！
+### discussion
+* 第三个有点巧妙，但是听了讲解之后，发现为什么要使用reverse()就不难了，因为reverse()可以将链表反转，然后再使用addFirst()，就可以将链表的顺序反转了。
 
 ### Project 1
+* 要先根据老师的教程，将作业配置好环境，然后再开始做作业。
 * 这个project在学完 week 3 之后，只能做一部分，剩下的部分要等到学完 week 4 之后才能做完。
-* 
+* Deque：是Double Ended Queue的缩写，就是双向队列，可以从两端进行操作的队列，允许两端都进，两端都出。
+*  Linked List Deque的实现: 使用链表来实现Deque，这样子就可以在两端进行操作了。两种实现方法，方法一： two sentinel topology（两个哨兵节点，一个在开始，另一个在结束），方法二：circular topology（循环链表，最后一个节点指向第一个节点）。我使用的是方法二，老师也推荐我们使用方法二
