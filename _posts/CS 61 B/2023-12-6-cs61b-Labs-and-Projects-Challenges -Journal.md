@@ -1,5 +1,5 @@
 ---
-title: [Spoil攻略] CS 61B Labs and Projects Challenges Journal
+title: CS 61B 攻略
 author: mordecaimaic
 date: 2023-12-06 18:05:00 +0800
 categories: [CS自学, CS 61B]
