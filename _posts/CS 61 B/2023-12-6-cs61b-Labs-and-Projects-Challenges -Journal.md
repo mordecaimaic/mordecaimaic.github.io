@@ -63,7 +63,7 @@ tags: [cs61]     # TAG names should always be lowercase
 * 如果已经存放的个数，小于数组的长度的0.25倍的话，我们要进行halfSize(),也就是将数组进行缩小一半。
 * 最难的是，我们怎么利用System.arraycopy来实现数组的复制。关于这个问题，需要利用到之前设置好的front, rear, 所存放的元素个数，以及数组的长度。具体的思考过程，需要分两种情况讨论，情况1是线性表跨越过数组的边界，情况2是线性表没有跨越过数组的边界。只要将这两种情况想好，借助画图的办法，就可以很容易的想到怎么利用System.arraycopy来实现数组的复制，来进行数组的扩容和缩容。
 * 我所利用的办法，是将数组的旧的线性表的front节点，复制到新的数组newArray的最左边的地方。也就是将线性表最左边的元素，复制到newArray[0]。
-* **还有一点就是多用Debuger+Java Visualizer!!!超好用🤠**这两个工具，可以帮助我们很好的理解代码的运行过程，以及变量的变化过程。下面是我在做ArrayDeque的时候，用Java Visualizer来帮助我理解代码的运行过程的图片。
+* **还有一点就是多用Debuger+Java Visualizer!超好用🤠**这两个工具，可以帮助我们很好的理解代码的运行过程，以及变量的变化过程。下面是我在做ArrayDeque的时候，用Java Visualizer来帮助我理解代码的运行过程的图片。
 ![Debuger + Java Visualizer](/assets/images/cs61b/cs61b_arrayDeque_visualizer.png "Debuger + Java Visualizer")
 
 
