@@ -6,6 +6,8 @@ categories: [CS自学, CS 61B]
 tags: [cs61]     # TAG names should always be lowercase
 ---
 
+***
+
 ## week 1
 
 ### Lab 1: JSetting Up Your Computer IntelliJ Setup
@@ -16,14 +18,22 @@ tags: [cs61]     # TAG names should always be lowercase
 * 注意⚠️Redaing 1.2 里面的视频和Video List的不匹配，一定要对应看Git Book里面的内容。Git BooK和 Youtube Video List的要对应着看！！！
 * 如果对Git或者Git较为熟悉的同学，配置这里应该也不难。
 
+***
+
 ### HW 0: HW0: Basic Java Programs (optional)
 * 涉及到一些Java最基本的概念以及方法，没有学过Java的话，强烈推荐一定要去做
+
+***
 
 ### Project 0 2048
 * 不难，复刻一个2048的游戏。主要是操作一些二维数组就可以了，跟着教程说明一步步做就可以了。
 
+***
+
 ## week 2 
 * week 2 主要讲解如何使用Java的debugger，以及如何使用Junit来进行测试
+
+***
 
 ### Lab 2 Debugging
 * 这个Lab 2 的实验我整整配置了半天时间才弄好，下面是我我踩过的一些坑。
@@ -36,17 +46,22 @@ tags: [cs61]     # TAG names should always be lowercase
 * ![cs61b submodule](/assets/images/cs61b/cs61b_submodule.png)
 * 在cs61b skeleton中会有这种标志的文件夹，在使用git clone的时候是不会下载的，这个是我们链接到别处仓库的。所以要使用`git submodule update --init`来下载。或者是手动下载，然后放到对应的文件夹里面。
 
+***
 
 ## week 3
 * 这一周主要讲两种方法实现的List，一种是SLList，一种是Array List。前面这两种 Josh 都是手把手带着敲的，还有是还有是(循环)双向链表，但是老师只是上课提到了理念，所以最好自己动手去实现一下。
 * 注意⚠️Redaing 4.1 里面的视频和Video List的不匹配，一定要对应看Git Book里面的内容。Git BooK和 Youtube Video List的要对应着看！！！！！
 
+***
 
 ### Lab3: Randomizing Testing and Timing
 * 用随机测试来找到错误，非常巧妙，我们可以随机生成的数字，做一些随机的动作，然后进行测试，看看是否会出现错误。
 
+***
 ### discussion
 * 第三个有点巧妙，但是听了讲解之后，发现为什么要使用reverse()就不难了，因为reverse()可以将链表反转，然后再使用addFirst()，就可以将链表的顺序反转了。
+
+***
 
 ### Project 1
 * 要先根据老师的教程，将作业配置好环境，然后再开始做作业。只要耐心阅读教程即可，保证将任务分解成一点点进行解决即可。
@@ -85,3 +100,26 @@ tags: [cs61]     # TAG names should always be lowercase
 **(其实ArrayDequeSolution也是extends了java自带的LinkedList，但是只不过是创建一些异常处理，我使用的是java自带的LinkedList)**
 * **第二步**：在找到了错误之后，最关键的是，我们怎么将错误的操作序列输出出来，什么意思呢。我们在发现了错误之后，我们肯定是要知道一个**全新的Deque**在初始化之后是经过了什么操作才会出错的，比如经历了Operation_1, Operation_2, Operation_3...Operation_n，操作了n次之后，通过对比两个Deque我们发现了错误。**我们的关键就是如何将所有的Operation_1, Operation_2, Operation_3...Operation_n全部输出出来，放到asserEquals()里面的报错信息**
 * 关于assertEquals的用法，查看一下使用例子就可以了，老师也有Demo展示。
+
+***
+
+## week 4
+* 由于projec 1 的iterator以及其他一些内容是在week 4 里面讲解的，因此学学week 4 之后，就能够完成project 1的剩余部分了。
+
+***
+
+### Lab 4: Git and Debugging
+* 这个Lab 4可以帮助我们加强git以及debug的能力，这两个能力在以后的学习工作中都是非常重要的。
+* 在进入lab 4之前，最好先看一下这个视频[cs50关于git的讲解](https://www.youtube.com/watch?v=MJUJ4wbFm_A&t=454s)。这个视频可以更加概括性的讲解，看完可以有一个入门的理解。
+* 这个lab主要讲解了git的基本概念，基本操作。有6个关于git的视频，看完之后理解git的基本概念，基本操作即可，学会怎么merge conflict，怎么使用git来进行版本控制。（例如切换到历史的coommit，将代码文件还原等）
+* 注意：由于只有跟着cs61b老师的课程，老师下发一个有冲突版本的代码，让学生能够联系merge conflict，所以我们在做lab 4的时候，没有办法练习merge conflict，但是我们可以在自己的仓库里面，**手动创建一个有冲突的分支，然后练习merge conflict**。
+
+>
+关于如何在lab 1里面手动创建一个conflict，然后merge conflict，看我这篇教程，[CS 61B 如何手动创建一个conflict](/posts/cs61b-create-merge-conflict)
+{: .prompt-tip }
+  * `Lab 4A`和`Lab 4B`的内容，主要解决`lab 1 `里面的`Collatz.java`里面的冲突就可以了。在lab 4A里面，按照老师给的错误代码替换到`Collatz.java`里面的`nextNumber`提交即可。在lab 4b 里面，使用`git log`和`git checkout <commit> -- Collatz.java`来还原代码，然后再提交即可。
+* 在`Lab 4: Debugging`里面，主要是解决`lab4/Flik.java`以及测试代码`lab4/HorribleSteve.java`里面错误。这时候我们要用到两个非常重要的debug知识，**conditional breakpoints** 和**breaking on exceptions**，也就是条件断点和异常断点。这两个断点的使用，可以帮助我们更好的debug代码。如果忘记的的话的话，回去复习**Lab 3**的内容即可。
+* 利用上面这两种断点，可以找到错误，修复后提交代码，就可以通过lab 4了。
+
+*** 
+
