@@ -14,10 +14,9 @@ tags: [cs61]     # TAG names should always be lowercase
 
 假设有两个分支，分别是 `branchA` 和 `branchB`。
 
-1. **创建新的Git存储库：**
+1. **切换到到`lab1`：**
    ```bash
-   git init conflict-example
-   cd conflict-example
+   cd lab1
    ```
 
 2. **在两个不同的分支上创建并切换：**
@@ -26,10 +25,10 @@ tags: [cs61]     # TAG names should always be lowercase
    git checkout -b branchA
 
    # 在 branchA 分支上修改文件
-   echo "This is branchA content." > file.txt
+   echo "This is branchA content." >> Collatz.java
 
    # 提交修改
-   git add file.txt
+   git add Collatz.java
    git commit -m "Commit on branchA"
 
    # 切换回主分支
@@ -39,10 +38,10 @@ tags: [cs61]     # TAG names should always be lowercase
    git checkout -b branchB
 
    # 在 branchB 分支上修改相同文件的相同位置
-   echo "This is branchB content." > file.txt
+   echo "This is branchB content." >> Collatz.java
 
    # 提交修改
-   git add file.txt
+   git add Collatz.java
    git commit -m "Commit on branchB"
    ```
 
@@ -55,7 +54,7 @@ tags: [cs61]     # TAG names should always be lowercase
    这时，你会得到合并冲突的提示。
 
 4. **手动创建冲突：**
-   打开文件 `file.txt`，你会看到类似如下的内容：
+   打开文件 `Collatz.java`，你最后面会看到类似如下的内容：
    ```plaintext
    <<<<<<< HEAD
    This is branchB content.
@@ -72,7 +71,7 @@ tags: [cs61]     # TAG names should always be lowercase
 6. **标记冲突已解决：**
    保存文件后，使用以下命令告诉Git你已经解决了冲突：
    ```bash
-   git add file.txt
+   git add Collatz.java
    ```
 
 7. **完成合并：**
