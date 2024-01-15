@@ -120,6 +120,7 @@ tags: [cs61]     # TAG names should always be lowercase
   * `Lab 4A`和`Lab 4B`的内容，主要解决`lab 1 `里面的`Collatz.java`里面的冲突就可以了。在lab 4A里面，按照老师给的错误代码替换到`Collatz.java`里面的`nextNumber`提交即可。在lab 4b 里面，使用`git log`和`git checkout <commit> -- Collatz.java`来还原代码，然后再提交即可。
 * 在`Lab 4: Debugging`里面，主要是解决`lab4/Flik.java`以及测试代码`lab4/HorribleSteve.java`里面错误。这时候我们要用到两个非常重要的debug知识，**conditional breakpoints** 和**breaking on exceptions**，也就是条件断点和异常断点。这两个断点的使用，可以帮助我们更好的debug代码。如果忘记的的话的话，回去复习**Lab 3**的内容即可。
 * 利用上面这两种断点，可以找到错误，修复后提交代码，就可以通过lab 4了。
+* 按照老师的做法，使用`Junit`也是可以的，具体的做法是：创建一个新的测试文件，使用`assertTrue(boolean)` 和 `assertTrue(String, boolean)`来测试代码。
 
 *** 
 
