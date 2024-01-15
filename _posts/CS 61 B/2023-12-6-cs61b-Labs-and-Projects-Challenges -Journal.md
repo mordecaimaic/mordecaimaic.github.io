@@ -14,7 +14,7 @@ tags: [cs61]     # TAG names should always be lowercase
 * 安装Intellj IDEA
 * 安装Java JDK
 * 安装Git
-* 同步CS61b Skeleton Spring 2021 Github 仓库，在google上就能够找到对应的地址。(https://github.com/mordecaimaic/skeleton-sp21)
+* 同步CS61b Skeleton Spring 2021 Github 仓库，在google上就能够找到对应的地址。[老师的代码框架](https://github.com/mordecaimaic/skeleton-sp21)
 * 注意⚠️Redaing 1.2 里面的视频和Video List的不匹配，一定要对应看Git Book里面的内容。Git BooK和 Youtube Video List的要对应着看！！！
 * 如果对Git或者Git较为熟悉的同学，配置这里应该也不难。
 
