@@ -58,7 +58,7 @@ tags: [cs61]     # TAG names should always be lowercase
 * 用随机测试来找到错误，非常巧妙，我们可以随机生成的数字，做一些随机的动作，然后进行测试，看看是否会出现错误。
 
 ***
-### discussion
+### discussion: Linked Lists Exam Prep
 * 第三个有点巧妙，但是听了讲解之后，发现为什么要使用reverse()就不难了，因为reverse()可以将链表反转，然后再使用addFirst()，就可以将链表的顺序反转了。
 
 ***
