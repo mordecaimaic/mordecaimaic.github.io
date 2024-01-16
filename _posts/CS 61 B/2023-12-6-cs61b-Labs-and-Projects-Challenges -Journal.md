@@ -125,4 +125,4 @@ tags: [cs61]     # TAG names should always be lowercase
 *** 
 
 ### Discussion: Inheritance and Implements Exam Prep
-这里有一道题目非常巧妙，我单独开了一篇博客来讲解第2题: ["Dynamic Method Selection"](/)
+这里有一道题目非常巧妙，我单独开了一篇博客来讲解第2题: ["Dynamic Method Selection"](/_posts/Dynamaic-Method-Selection)
