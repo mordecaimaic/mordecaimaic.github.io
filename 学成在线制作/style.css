@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+body {
+    background-color: #f3f5f7;
+    height: 3000px;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* 所有的a都取消下划线 */
+a {
+    text-decoration: none;
+}
+
+.header {
+    /* background-color: pink; */
+    height: 42px;
+    margin: 30px auto;
+}
+
+.header .logo {
+    float: left;
+    height: 42px;
+    width: 198px;
+
+}
+
+/* 导航栏部分 */
+.header .nav {
+    float: left;
+    margin-left: 60px;
+}
+
+.header .nav ul li {
+    float: left;
+    margin: 0 15px;
+}
+
+/* 导航栏链接是block */
+.header .nav ul li a {
+    display: block;
+    height: 42px;
+    padding: 0 10px;
+    line-height: 42px;
+    font-size: 18px;
+    color: #050505;
+}
+
+/*  导航栏a链接悬停效果*/
+.header .nav ul li a:hover {
+    border-bottom: 2px solid #00a3ff;
+    color: #00a3ff;
+}
+
+.header .search {
+    float: left;
+    width: 412px;
+    height: 42px;
+    margin-left: 50px;
+}
+
+/* 输入框input盒子 */
+.header .search input {
+    float: left;
+    height: 40px;
+    width: 345px;
+    border: 1px solid #00a4ff;
+    border-right: none;
+    color: #bfbfbf;
+    /* 设置padding的目的是为了让输入框的字体往右移动 */
+    padding-left: 15px;
+}
+
+/* 输入框按钮 */
+.header .search button {
+    float: left;
+    border: none;
+    height: 42px;
+    width: 51px;
+    background-image: url(/images/search.png);
+}
+
+
+.header .user {
+    float: right;
+    line-height: 42px;
+    margin-right: 30px;
+    font-size: 14px;
+    color: #666;
+}
+
+
+.banner {
+    height: 420px;
+    width: 100%;
+    background-color: #1b036b;
+}
+
+.banner .w {
+    height: 420px;
+    background: url(/images/banner2.png) no-repeat top center;
+}
+
+.banner .w .subnav {
+    float: left;
+    height: 420px;
+    width: 190px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.banner .w .subnav ul li {
+    padding: 0 20px;
+    height: 45px;
+    line-height: 45px;
+
+}
+
+.banner .w .subnav ul li a {
+    display: block;
+    color: #fff;
+    font-size: 14px;
+
+}
+
+.banner .w .subnav ul li span {
+    float: right;
+}
+
+.banner .w .subnav li a:hover {
+    color: #49a2f8;
+}
+
+.banner .w .course {
+    float: right;
+    width: 230px;
+    height: 300px;
+    background-color: #fff;
+    /* 由于course是一个浮动的盒子，因此不会因为course造成父盒子的塌陷问题 */
+    margin-top: 50px;
+}
+
+
+.banner .w .course h2 {
+    height: 48px;
+    background-color: #9bceea;
+    text-align: center;
+    line-height: 48px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.course .course_body {
+    padding: 0 20px;
+}
+
+.course .course_body h4 {
+    font-size: 16px;
+    color: #4e4e4e;
+}
+
+.course .course_body ul li {
+    padding: 14px 0;
+    border-bottom: 1px solid #f7f7f7;
+}
+
+.course .course_body p {
+    font-size: 12px;
+    color: #a5a5a5;
+}
+
+.course .course_body .more {
+    display: block;
+    height: 38px;
+    border: 1px solid #20afff;
+    margin-top: 5px;
+    text-align: center;
+    line-height: 38px;
+    color: #00a4ff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.goods {
+    margin-top: 8px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #fff;
+    box-shadow: 0 2px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.goods h4 {
+    float: left;
+    font-size: 16px;
+    color: #00a4ff;
+    margin: 0 30px;
+}
+
+.goods ul {
+    float: left;
+}
+
+.goods ul li {
+    float: left;
+}
+
+.goods ul li a {
+    padding: 0 30px;
+    color: #050505;
+    border-left: 1px solid #ccc;
+}
+
+.goods ul li span {
+    /* margin: 0 30px; */
+    color: #bebebe;
+}
+
+.goods .mod {
+    float: right;
+    /* font-size: 99px; */
+    height: 60px;
+    margin-right: 30px;
+    font-size: 14px;
+    color: #00a4ff;
+}
+
+.box {
+    height: 597px;
+    margin-top: 35px;
+}
+
+.box .box-header {
+    height: 42px;
+}
+
+.box .box-header h2 {
+    float: left;
+    color: #494949;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.box .box-header a {
+    float: right;
+    margin-right: 30px;
+    line-height: 42px;
+    font-size: 12px;
+    color: #a5a5a5;
+}
+
+.box .box-body ul li {
+    float: left;
+    width: 228px;
+    height: 270px;
+    margin-right: 15px;
+}
+
+.box .box-body ul li img {
+    width: 228px;
+}
+
+.box .box-body ul li h3 {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 23px;
+}
+
+.box .box-body ul li p {
+    margin: 18px 23px;
+    color: #050505;
+    font-size: 12px;
+}
+
+.box .box-body ul li span {
+    color: #ff7c2d;
+}
+
+.box .box-body ul .right {
+    margin-right: 0px;
+}
+
+.box .box-body ul .bottom {
+    margin-top: 15px;
+}
